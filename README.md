@@ -1,2 +1,2 @@
-# Alura
-Repositório para hospedar projetos do Imersão CSS e Quarentena Dev
+# Imersão CSS
+Repositório para hospedar o projeto do Imersão CSS da Alura com Vanessa Tonini.

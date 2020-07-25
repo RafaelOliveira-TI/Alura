@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+/**/
+body {
+  background-image: url('img/cloud.jpg'); /*imagem de fundo da página*/
+  font-family: lobster; /*Fonte do body*/
+  background-size: auto auto; /*define tamanho da imagem, largura altura*/
+  height: 100vh; /*autura do body*/
+}
+
+/*Cor de fundo do menu*/
+.menu {
+  background-color: #F5F5F5;
+}
+
+/*Estilo do menu, um ao lado do outro*/
+.menu ul {
+  display: flex; /*Coloca um link ao lado do outro, força tudo a virar coluna*/
+  justify-content: space-around; /*justifica o conteúdo, */
+}
+
+.menu li {
+  list-style: none; /*remove formatação de lista que estão dentro da classe menu, as marcações da frente*/
+}
+
+a {
+  color: #112d4e; /*cor do texto do link*/
+  text-decoration: none; /*remove o sublinhado dos link do menu*/
+}
+
+a:hover {
+  text-decoration: underline; /*adiciona sublinhado no link do menu ao posicionar o mouse em cima*/
+}
+
+.site-title, .site-subtitle {
+  text-align: center; /*centraliza o titulo e o subitítulo*/
+  color: #112d4e; /*cor do texto do título e subtítulo*/
+}
+
+.site-subtitle {
+  font-style: italic; /*Estilo do subtítulo*/
+}
+
+/*Como deixar o site responsivo*/
